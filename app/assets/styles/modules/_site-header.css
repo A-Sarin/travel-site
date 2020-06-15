@@ -19,6 +19,14 @@
         padding: 13px 29px;
         left: 50%;
         transform: translateX(-50%);
+
+        @mixin atSmall {
+            padding: 6.5px 14.5px;
+            transform: translateX(0);
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
         @mixin atMedium {
             padding: 25px 36px;
             left: auto;
